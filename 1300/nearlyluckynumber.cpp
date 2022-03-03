@@ -12,6 +12,6 @@ int main()
         if(s[i]=='4') ++a;
         else if (s[i]=='7') ++b;
     }
-    if(a+b==s.length()) cout<<"YES";
+    if(a+b==4||a+b==7) cout<<"YES";
     else cout<<"NO";
 }
