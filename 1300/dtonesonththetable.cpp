@@ -6,8 +6,8 @@ int main()
     int length;
     string s;
     cin>>length>>s;
-    int i,j=0;
-    for(i=0;i<length;++i)
+    int i,j=0;               
+    for(i=0;i<length;++i)               //used two pointer method
     {
        if(s[i]!=s[j]) 
        {
